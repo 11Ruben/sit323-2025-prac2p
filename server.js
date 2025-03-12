@@ -10,5 +10,5 @@ app.use(express.static(__dirname))
 
 //Start the server
 app.listen(port, () =>{
-    console.log(`Example app listening at https://localhost:${port}`);
+    console.log(`App listening at https://localhost:${port}`);
 });
